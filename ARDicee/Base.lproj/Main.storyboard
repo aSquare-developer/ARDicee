@@ -26,10 +26,15 @@
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" constant="103" id="rJc-2c-zQA"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="rJc-2c-zQA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="On8-5U-loZ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="aRx-Dx-xBn">
+                            <connections>
+                                <action selector="removeAllDice:" destination="BV1-FR-VrT" id="13n-MM-ep9"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="jIc-pz-9Zi">
                             <connections>
                                 <action selector="rollAgain:" destination="BV1-FR-VrT" id="c60-ft-o9q"/>
